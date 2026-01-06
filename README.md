@@ -27,6 +27,7 @@ cd pylingual
 python -m venv venv
 source venv/bin/activate
 pip install poetry>=2.0
+poetry lock
 poetry install
 ```
 
